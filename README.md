@@ -212,10 +212,10 @@ table on the fly and stuff.  This is probably a lot of free time
 for someone.
 
 ## Contributing
-See [CONTRIBUTING](Contributing.md)
+See [CONTRIBUTING](CONTRIBUTING.md)
 
 ## Issues
-See [CONTRIBUTING](Contributing.md)
+See [CONTRIBUTING](CONTRIBUTING.md)
 
 Any bugs with the implementation please raise in this repo.  
 Any bugs with the specification you can raise [here](https://github.com/trustoverip/kswg-cesr-specification)
