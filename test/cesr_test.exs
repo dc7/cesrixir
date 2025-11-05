@@ -667,7 +667,7 @@ defmodule Cesr.CesrTest do
     # for some reason that nobody documented and the examples rely on
     # that code which is no longer in the version 1 codex on keripy
     
-    for example_stream <- Path.wildcard("test/kerilixir/example_payloads/gleif_cesr_streams/*") |> 
+    for example_stream <- Path.wildcard("test/example_payloads/gleif_cesr_streams/*") |>
                           Enum.filter(fn x -> not String.ends_with?(x, "-vc.cesr") end)
     do
       stream = File.read!(example_stream) 

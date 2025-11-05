@@ -1,0 +1,20 @@
+{
+    "v": "KERICAAJSONAACd.", # version
+    "t": "icp",  # event type
+    "d": "EL1L56LyoKrIofnn0oPChS4EyzMHEEk75INJohDS_Bug", # SAID digest of event
+    "i": "BnmwyZ-i0H3ULvad8JZAoTNZaU6JR2YAfSVPzh5CMzS6b", # Issuer of event
+    "s": "0", # sequence number
+    "kt": "1", # signing threshold
+    "k":
+      [
+        "BnmwyZ-i0H3ULvad8JZAoTNZaU6JR2YAfSVPzh5CMzS6b" # public key
+      ],
+    "nt": "0", # next threshold
+    "n":
+      [ ], # next set of keys to rotate too.  Since empty we know this is an non-transferable AID
+    "bt": "0", # backer threshold
+    "b":
+      [ ], # backers to this AID (witnesses to KEL)
+    "c": [], # configuration options
+    "a": [] # list of potential seals
+}

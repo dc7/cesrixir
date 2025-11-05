@@ -5,20 +5,7 @@ defmodule Cesr.CodeTable.KeriElementGroupings do
 
   This module is meant to provide functions similar to what the Codexes do (which do the groupings in keripy).
   """
-  @type version_string() :: Kerilixir.Version_String_1.t() | Kerilixir.Version_String_2.t()
-
-  @type kel_event() :: Kerilixir.Keri.InceptionEvent.t() |
-                       Kerilixir.Keri.DelegatedInceptionEvent.t() |
-                       Kerilixir.Keri.RotationEvent.t() |
-                       Kerilixir.Keri.DelegatedRotationEvent.t() |
-                       Kerilixir.Keri.InteractionEvent.t()
-
-  @type routed_message() :: Kerilixir.Keri.RoutedEvents.Bare.t() |
-                            Kerilixir.Keri.RoutedEvents.ExchangeContinuation.t() |
-                            Kerilixir.Keri.RoutedEvents.ExchangeInception.t() |
-                            Kerilixir.Keri.RoutedEvents.Prod.t() |
-                            Kerilixir.Keri.RoutedEvents.Query.t() |
-                            Kerilixir.Keri.RoutedEvents.Reply.t()
+  @type version_string() :: Cesr.Version_String_1.t() | Cesr.Version_String_2.t()
 
   @type indexed_signature() ::
     Cesr.Primitive.Indexes.IDX_A_Ed25519_Sig.t() |
