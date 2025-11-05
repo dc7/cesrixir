@@ -9,7 +9,7 @@ Field maps (of field map types from MGPK, CBOR, JSON)
 Count Codes (groupings of CESR primitives or field maps or full CESR streams)
 Primitives (both regular primitives and indexed primitives)
 
-It also has support for a weird list of "annotations"
+It also has support for a weird list of "annotations" tags followed by a string of arbitrary length until a newline.
 
 The two encoding domains are binary and urlsafe b64.  The spec also refers to a
 "raw" domain but this is just the name the author gives to values instantiated
